@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")#render template function is used to render html files in the template folder
 
-@app.route("/about) #displaying the about page
+@app.route("/about") #displaying the about page
 def about():
     return render_template("about.html")
 
